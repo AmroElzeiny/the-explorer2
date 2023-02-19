@@ -1,0 +1,136 @@
+.section4{
+    width: 100%;
+    min-height: min-content;
+    display: flex;
+    justify-content: center;
+}
+.section4-container{
+    width: 81.25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.section4-title{
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    color: #202020;
+}
+.section4-posts{
+    max-width: 1170px;
+    width: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    transition-duration: 0.5s;
+}
+.section4-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    min-width: 48.72%;
+    row-gap: 10px;
+    position: relative;
+    left: 0px;
+    transition-duration: 0.5s;
+}
+.section4-img{
+    width: 100%;
+    position: relative;
+    left: -20px;
+}
+.section4-post-title{
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    color: #202020;
+}
+.section4-text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #202020;
+}
+.section4-icon-container{
+    min-width: 151px;
+    height: 26px;
+    display: flex;
+    column-gap: 20px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202020;
+}
+.section4-icon-img{
+    transition-duration: 0.5s;
+}
+.section4-icon-container:hover .section4-icon-img{
+    transform: translateX(10px);
+}
+
+
+.section4-right-button{
+    width: 51px;
+    height: 66px;
+    background: #202020;
+    border-radius: 20px;
+    background-image: url('../images/section4-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: 0.5s;
+    position: relative;
+    top: -413px;
+    right: -90%;
+
+}
+.section4-right-button:hover{
+    background-position: right;
+    background-color: #9EE800;
+    cursor: pointer;
+}
+
+
+.section4-left-button{
+    width: 51px;
+    height: 66px;
+    background: #202020;
+    border-radius: 20px;
+    background-image: url('../images/section4-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotateY(180deg);
+    transition-duration: 0.5s;
+    position: relative;
+    top: -520px;
+    left: 25px;
+}
+.section4-left-button:hover{
+    background-position: right;
+    background-color: #9EE800;
+    cursor: pointer;
+}
+@media(max-width: 1100px){
+    .section4-posts{
+        max-width: 768px;
+    }
+}
+@media(max-width: 768px){
+    .section4-post{
+        min-width: 81.25%;
+    }
+    .section4-posts{
+        max-width: 81.25%;
+    }
+}
+

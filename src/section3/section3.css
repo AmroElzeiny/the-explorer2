@@ -1,0 +1,126 @@
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 641px;
+}
+.section3-container{
+    width: 81.25%;
+    display: flex;
+    justify-content: center;
+    column-gap: 8.55%;
+    min-height: 641px;
+    align-items:center;
+    flex-wrap: nowrap;
+    row-gap: 50px;
+}
+.section3-left-container{
+    width: 51.282%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.section3-left-container-title{
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    color: #202020;
+}
+.section3-left-container-pic1{
+    width: 100%;
+    position: relative;
+    left: -25px;
+}
+.section3-left-container-text-title{
+    width: 100%;
+    min-height: 29px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    color: #202020;
+}
+.section3-left-container-text{
+    width: 100%;
+    min-height: 78px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #202020;
+}
+.section3-left-container-icon-container{
+    width: 151px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202020;
+    transition-duration: 0.5s;
+}
+.section3-left-container-icon-img{
+    width: 30px;
+}
+.section3-left-container-icon-container:hover .section3-left-container-icon-img{
+    position: relative;
+    transform:translateX(10px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+.section3-right-container{
+    width: 40.1%;
+    min-height: 519px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+.section3-right-container-post{
+    width: 100%;
+    display: flex;
+    column-gap: 25px;
+    flex-direction: row;
+}
+.section3-right-container-post-texts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.section3-right-container-post-title{
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #202020;
+}
+.section3-right-container-post-date{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #909090;
+}
+@media(max-width: 1200px){
+    .section3-container{
+        flex-wrap: wrap;
+    }
+    .section3-left-container{
+        width: 100%;
+    }
+    .section3-right-container{
+        width: 100%;
+    }
+}

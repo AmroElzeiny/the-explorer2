@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 100px;
+  
+}
+a{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: #202020;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background: #FFFFFF;
+}
+button{
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
